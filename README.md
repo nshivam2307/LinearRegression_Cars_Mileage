@@ -83,6 +83,5 @@ for idx,col_name in enumerate(X_train.columns):
 reg_model.score(X_test,y_test)
 reg_model.score(X_train,y_train)
 
-# TEST_SCORE = 84.33%, TRAIN_SCORE = 81.41%
-# So, the score of training model is less than testing, but is closer to it
+# TEST_SCORE = 81.33%, TRAIN_SCORE = 84.41%
 # Hence our model can be considered as a GOOD MODEL (fitting model)
