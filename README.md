@@ -75,6 +75,7 @@ reg_model = LinearRegression()
 reg_model.fit(X_train,y_train)
 
 # Finding coeff of correlation for all columns of X
+
 for idx,col_name in enumerate(X_train.columns):
     print('The Coefficient for {} is {}'.format(col_name, reg_model.coef_[0][idx]))
 
