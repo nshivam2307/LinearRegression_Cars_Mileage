@@ -53,6 +53,7 @@ cars['hp'] = cars['hp'].astype('float64')
 # PAIRPLOT
 sns.pairplot(cars,diag_kind='kde')
 # To plot limited columns in pairplot(for better visualization)
+
 cars1=cars.iloc[:,0:2]
 sns.pairplot(cars1,diag_kind='kde')
 
